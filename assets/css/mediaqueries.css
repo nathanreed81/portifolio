@@ -193,6 +193,11 @@
         max-width: 310px;
     }
 
+    .margin-horizontal-mobile{
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
     section.feature{
         margin-top: 5.625rem;
     }

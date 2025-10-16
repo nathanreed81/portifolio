@@ -206,9 +206,9 @@ header button.menu-mobile.mobile-menu-open svg{
 
 #mobileMenuTrigger div.mobile-overlay{
     position: absolute;
-    height: calc(100vh - 102px);
+    height: calc(100vh - 90px);
     width: 100vw;
-    top: 102px;
+    top: 90px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -376,7 +376,7 @@ main section.feature .feature-card{
     text-decoration: none;
 }
 
-main section.feature .feature-card img{
+main img.fadding-effect{
     will-change: opacity;
     opacity: 0;
     webkit-transition: opacity 1000ms linear;
@@ -386,7 +386,7 @@ main section.feature .feature-card img{
     transition: opacity 1000ms linear;
 }
 
-main section.feature .feature-card img.show-fade{
+main img.show-fade{
     opacity: 1!important;
 }
 

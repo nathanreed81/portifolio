@@ -94,7 +94,7 @@ if (currentPage === 'about'){
         }
     });
 
-    const projects = document.querySelectorAll('div.swiper-slide img');
+    const projects = document.querySelectorAll('img.fadding-effect');
 
     const projectObserverCallback = (projectsToWatch, projectObserver) => {
         projectsToWatch.forEach(projectToWatch => {
